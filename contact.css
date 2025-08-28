@@ -1,42 +1,13 @@
-* {
-    padding: 0;
-    margin: 0;
-    font-family:'Courier New', Courier, monospace;
-    font-style: italic;
-    background-color: lavenderblush;
-}
-.container {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    background-color: #f4f4f4;
-    padding: 10px 0;
-    border-right: 1px solid #ccc;
-}
-.flex-nav {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    background-color: #f1f1f1;
-    padding: 0;
-}
-.flex-nav a {
-    padding: 8px 16px;
-    text-decoration: none;
-    color: #000;
-    border-bottom: 1px solid #ddd;
-}
-.flex-nav a:hover {
-    background-color: #555;
-    color: white;
+body{
+    background: #ddd;
 }
 .contact-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     max-width: 1000px;
-    margin: 50px auto;
-    padding: 20px;
+    margin: 100px auto 50px;
+    padding: 10px 20px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 8px;
@@ -53,7 +24,7 @@
     color: #555;
 }
 .contact-details {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .contact-form label {
     display: block;
@@ -74,10 +45,11 @@
 .contact-form textarea {
     resize: vertical;
 }
-contact-form button {
+.contact-form button {
     background-color: #007bff; /* A nice blue color */
     color: white;
     border: none;
+    border-radius: 4px;
     padding: 15px 20px;
     margin-top: 20px;
     border-radius: 5px;
@@ -88,6 +60,7 @@ contact-form button {
 
 .contact-form button:hover {
     background-color: #0056b3;
+    color: #fff;
 }
 
 /* Responsive adjustments for smaller screens */
